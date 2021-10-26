@@ -105,6 +105,44 @@
           "template": "add_devices"
         }
       ]
+    },
+    {
+      "id": "mss425f",
+      "name": {
+        "en": "Meross mss425f"
+      },
+      "class": "socket",
+      "capabilities": ["onoff"],
+      "endpoints": {
+        "1": {
+          "clusters": [
+            0,
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      "images": {
+        "large": "/drivers/sensor/assets/images/large.png",
+        "small": "/drivers/sensor/assets/images/small.png"
+      },
+      "pair": [
+        {
+          "id": "list_devices",
+          "template": "list_devices",
+          "navigation": {
+            "next": "add_devices"
+          },
+          "options": {
+            "singular": false
+          }
+        },
+        {
+          "id": "add_devices",
+          "template": "add_devices"
+        }
+      ]
     }
   ],
   "flow": {
