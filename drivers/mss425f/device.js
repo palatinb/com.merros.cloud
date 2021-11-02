@@ -5,12 +5,36 @@ const Device = require('../../lib/device.js')
 
 const capabilityMap = {
     "onoff": {
+        "channel": 1,
+        "key": "STATE",
+        "set": {
+            "key": "STATE",
+            "channel": 1
+        },
+        "channel": 2,
+        "key": "STATE",
+        "set": {
+            "key": "STATE",
+            "channel": 1
+        },
+        "channel": 3,
+        "key": "STATE",
+        "set": {
+            "key": "STATE",
+            "channel": 1
+        },
+        "channel": 4,
+        "key": "STATE",
+        "set": {
+            "key": "STATE",
+            "channel": 1
+        },
         "channel": 5,
         "key": "STATE",
         "set": {
             "key": "STATE",
-            "channel": 5
-        }
+            "channel": 1
+        },
     }
 }
 
